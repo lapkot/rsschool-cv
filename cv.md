@@ -22,8 +22,9 @@ function multiply(a, b) {
 ``` 
 
 ***
-#### Education and courses
-* hexlet.io -  [HTML and CSS Basics, Web Design](https://ru.hexlet.io/courses/html)
+#### Education and Courses
+* hexlet.io - [HTML and CSS Basics, Web Design](https://ru.hexlet.io/courses/html)
+* hexlet.io - [Basics of CSS Layout Techniques](https://ru.hexlet.io/courses/css-content)
 * BSEU, Minsk – *economist-manager*, 2014
 
 ***
