@@ -1,1 +1,1 @@
-# rsschool-cv
+https://lapkot.github.io/rsschool-cv/

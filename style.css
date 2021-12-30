@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Bold.ttf');
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(59, 114, 114);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(59, 114, 114);
+  display: inline;
+  border-bottom: 2px solid #d61b72;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin: 0 15%;
+  }
+}
+
+header {
+  flex: 0 0 auto;
+  background-color: rgb(78, 116, 116);
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    display: flex;
+    flex: 1 0 auto;
+  }
+
+  .nav {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-photo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.profile-photo {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  background-color: rgb(230, 230, 230);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #d61b72;
+  padding: 10px;
+}
+
+.footer-item {
+  flex: 1 1 0;
+}
+
+.item-center {
+  display: flex;
+  justify-content: center;
+}
+
+.item-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-bar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.code {
+  padding: 10px;
+  background-color: lightgrey;
+  color: rgb(59, 114, 114);
+  border-radius: 20px;
+  font-size: larger;
+}
+
+.main-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link:hover {
+  color: #d61b72;
+  background-color: rgb(64, 104, 104);
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  padding: 20px 10px;
+  transition: .3s;
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 0
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 5px;
+    width: 100%;
+  }
+
+  .code {
+    white-space: pre-wrap;
+  }
+}
+
+li {
+  margin-bottom: 0.7rem;
+}
+
+.section {
+  padding-bottom: 20px;
+  margin: 0 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(59, 114, 114);
+}
