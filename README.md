@@ -1,2 +1,3 @@
-https://lapkot.github.io/rsschool-cv/cv
-https://lapkot.github.io/rsschool-cv/
+* https://lapkot.github.io/rsschool-cv/cv
+
+* https://lapkot.github.io/rsschool-cv/
